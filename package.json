@@ -1,0 +1,26 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": "This is a simple CRUD (Create, Read, Update, Delete) application built with Node.js and SQLite. The application demonstrates basic operations on a SQLite database.",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElAmirr/crud-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElAmirr/crud-app/issues"
+  },
+  "homepage": "https://github.com/ElAmirr/crud-app#readme",
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
